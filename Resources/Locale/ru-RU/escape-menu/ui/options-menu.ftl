@@ -129,7 +129,6 @@ ui-options-header-text-cursor = Текстовый курсор
 ui-options-header-text-cursor-select = Выделение текста
 ui-options-header-text-edit = Редактирование текста
 ui-options-header-text-chat = Чат
-ui-options-function-toggle-knockdown = Переключить ползание
 ui-options-header-text-other = Прочий ввод текста
 ui-options-hotkey-keymap = Использовать клавиши QWERTY (США)
 ui-options-hotkey-toggle-walk = Переключать шаг\бег
