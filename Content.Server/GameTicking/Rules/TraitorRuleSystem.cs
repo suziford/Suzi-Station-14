@@ -131,6 +131,7 @@ using Robust.Shared.Random;
 using Content.Shared.Clumsy;
 using Content.Server.Popups;
 using Content.Goobstation.Common.CCVar;
+using Content.Server.Objectives;
 using Robust.Shared.Configuration;
 
 namespace Content.Server.GameTicking.Rules;
