@@ -58,6 +58,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Content.Server.Roles;
+using Content.Shared.Roles;
 
 namespace Content.Server.Objectives;
 
@@ -74,6 +75,7 @@ public sealed class ObjectivesSystem : SharedObjectivesSystem
     [Robust.Shared.IoC.Dependency] private readonly ICommonCurrencyManager _currencyMan = default!;
     [Robust.Shared.IoC.Dependency] private readonly IConfigurationManager _cfg = default!;
     [Robust.Shared.IoC.Dependency] private readonly ISharedAdminLogManager _adminLog = default!;
+    [Robust.Shared.IoC.Dependency] private readonly SharedRoleSystem _roles = default!;
 
     private IEnumerable<string>? _objectives;
 
