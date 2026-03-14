@@ -1,0 +1,413 @@
+- type: jukebox
+  id: beyondthesea
+  name: Beyond The Sea
+  path:
+    path: /Audio/_Suziford/Jukebox/beyondthesea.ogg
+
+- type: jukebox
+  id: fortunateMusic
+  name: Fortunate
+  path:
+    path: /Audio/_Suziford/Jukebox/fortunate.ogg
+
+- type: jukebox
+  id: highfleetMusic
+  name: Tanc A Lelek (highfleet)
+  path:
+    path: /Audio/_Suziford/Jukebox/highfleet.ogg
+
+- type: jukebox
+  id: whosoldtheworld
+  name: Who Sold The World
+  path:
+    path: /Audio/_Suziford/Jukebox/whosoldtheworld.ogg
+
+- type: jukebox
+  id: travestyHullrot
+  name: travesty (Hullrot)
+  path:
+    path: /Audio/_Suziford/Jukebox/travesty.ogg
+
+- type: jukebox
+  id: degeneracyHullrot
+  name: degeneracy (Hullrot)
+  path:
+    path: /Audio/_Suziford/Jukebox/degeneracy.ogg
+
+- type: jukebox
+  id: hullrotCombatMusic1
+  name: Hullrot Combat 1
+  path:
+    path: /Audio/_Suziford/Jukebox/GS_3.ogg
+
+- type: jukebox
+  id: CountdownEFT
+  name: Countdown - Geneburn
+  path:
+    path: /Audio/_Suziford/Jukebox/Countdown.ogg
+
+- type: jukebox
+  id: hullrotCombatMusic3
+  name: Hullrot Combat 3
+  path:
+    path: /Audio/_Suziford/Jukebox/GS_2.ogg
+
+- type: jukebox
+  id: balreskaHullrot
+  name: balreska_1 (Hullrot)
+  path:
+    path: /Audio/_Suziford/Jukebox/balreska_1.ogg
+
+- type: jukebox
+  id: BichYaBarat
+  name: Бич я Борат
+  path:
+    path: /Audio/_Suziford/Jukebox/BichYaBarat.ogg
+
+- type: jukebox
+  id: bhopMusic
+  name: bhop
+  path:
+    path: /Audio/_Suziford/Jukebox/bhop.ogg
+
+- type: jukebox
+  id: chinaRep
+  name: Китайский рэп
+  path:
+    path: /Audio/_Suziford/Jukebox/chinaRep.ogg
+
+- type: jukebox
+  id: flowersTemniy
+  name: Цветы - Тёмный Принц
+  path:
+    path: /Audio/_Suziford/Jukebox/flowers.ogg
+
+- type: jukebox
+  id: looseCannon
+  name: Loose Cannon
+  path:
+    path: /Audio/_Suziford/Jukebox/LooseCannon.ogg
+
+- type: jukebox
+  id: BritanskiMarshal
+  name: БРИТАНСКИЙ МАРШАЛ
+  path:
+    path: /Audio/_Suziford/Jukebox/MARSHAL.ogg
+
+- type: jukebox
+  id: mexicanSongLol
+  name: Mexican Song
+  path:
+    path: /Audio/_Suziford/Jukebox/MexicanSong.ogg
+
+- type: jukebox
+  id: nightcallMusic
+  name: NightCall
+  path:
+    path: /Audio/_Suziford/Jukebox/Nightcall.ogg
+
+- type: jukebox
+  id: shboom
+  name: Sh-boom
+  path:
+    path: /Audio/_Suziford/Jukebox/shBoom.ogg
+
+- type: jukebox
+  id: thecatMusic
+  name: The Cat Music
+  path:
+    path: /Audio/_Suziford/Jukebox/theCat.ogg
+
+- type: jukebox
+  id: TobuCandyland
+  name: Tobu Candyland
+  path:
+    path: /Audio/_Suziford/Jukebox/TobuCandyland.ogg
+
+- type: jukebox
+  id: TomTomMusic
+  name: TomTom
+  path:
+    path: /Audio/_Suziford/Jukebox/TomTom.ogg
+
+- type: jukebox
+  id: WaitC418
+  name: Wait - C418
+  path:
+    path: /Audio/_Suziford/Jukebox/WaitC418.ogg
+
+- type: jukebox
+  id: IWantThingstoBeBeautiful
+  name: I Want Things to Be Beautiful - Devi McCallion 
+  path:
+    path: /Audio/_Suziford/Jukebox/IWantThingstoBeBeautiful.ogg
+
+- type: jukebox
+  id: NotionJukebox
+  name: Notion - The Rare Occasions
+  path:
+    path: /Audio/_Suziford/Jukebox/Notion.ogg
+
+- type: jukebox
+  id: JustTwoOfUs
+  name: Just Two of Us - Grover Washington
+  path:
+    path: /Audio/_Suziford/Jukebox/JusttheTwoOfUs.ogg
+
+- type: jukebox
+  id: TheCyberGrind
+  name: The Cyber Grind - meganeko
+  path:
+    path: /Audio/_Suziford/Jukebox/TheCyberGrind.ogg
+
+- type: jukebox
+  id: VersusJukebox
+  name: Versus - Heaven Pierce Her
+  path:
+    path: /Audio/_Suziford/Jukebox/Versus.ogg
+
+- type: jukebox
+  id: IReallyWanttoStayatYourHouse
+  name: I Really Want to Stay at Your House - Rosa Walton
+  path:
+    path: /Audio/_Suziford/Jukebox/IReallyWanttoStayatYourHouse.ogg
+
+- type: jukebox
+  id: TheFireIsGone
+  name: The Fire Is Gone - Heaven Pierce Her
+  path:
+    path: /Audio/_Suziford/Jukebox/TheFireIsGone.ogg
+
+- type: jukebox
+  id: WhereIsMyMind
+  name: Where Is My Mind - Pixies
+  path:
+    path: /Audio/_Suziford/Jukebox/WhereIsMyMind.ogg
+
+- type: jukebox
+  id: 70KJukebox
+  name: 70K - Mike Klubnika
+  path:
+    path: /Audio/_Suziford/Jukebox/70K.ogg
+
+- type: jukebox
+  id: BlankShell
+  name: Blank Shell - Mike Klubnika
+  path:
+    path: /Audio/_Suziford/Jukebox/BlankShell.ogg
+
+- type: jukebox
+  id: NoirVsForebodingBass
+  name: Noir vs Foreboding Bass - Dan Liston
+  path:
+    path: /Audio/_Suziford/Jukebox/NoirVsForebodingBass.ogg
+
+- type: jukebox
+  id: PoliceTheme
+  name: Police Theme - Zack Bower
+  path:
+    path: /Audio/_Suziford/Jukebox/PoliceTheme.ogg
+
+- type: jukebox
+  id: YouareanAngel
+  name: You are an Angel - Mike Klubnika
+  path:
+    path: /Audio/_Suziford/Jukebox/YouareanAngel.ogg
+
+- type: jukebox
+  id: CycleJukebox
+  name: Cycle - Icky Blossoms
+  path:
+    path: /Audio/_Suziford/Jukebox/Cycle.ogg
+
+- type: jukebox
+  id: TheworldRevolvingJukebox
+  name: THE WORLD REVOLVING - TobyFox
+  path:
+    path: /Audio/_Suziford/Jukebox/THEWORLDREVOLVING.ogg
+
+- type: jukebox
+  id: SpamtonJukebox
+  name: Spamton - TobyFox
+  path:
+    path: /Audio/_Suziford/Jukebox/Spamton.ogg
+
+- type: jukebox
+  id: SaveYourTearsTheWeekndJukebox
+  name: Save Your Tears - The Weeknd
+  path:
+    path: /Audio/_Suziford/Jukebox/SaveYourTearsTheWeeknd.ogg
+
+- type: jukebox
+  id: QueenJukebox
+  name: Queen - TobyFox
+  path:
+    path: /Audio/_Suziford/Jukebox/Queen.ogg
+
+- type: jukebox
+  id: LancerJukebox
+  name: Lancer - TobyFox
+  path:
+    path: /Audio/_Suziford/Jukebox/Lancer.ogg
+
+- type: jukebox
+  id: ItsTVTimeJukebox
+  name: It's TV Time! - TobyFox
+  path:
+    path: /Audio/_Suziford/Jukebox/ItsTVTime.ogg
+
+- type: jukebox
+  id: DontForgetJukebox
+  name: Don't Forget - TobyFox
+  path:
+    path: /Audio/_Suziford/Jukebox/DontForget.ogg
+
+- type: jukebox
+  id: AiduaemveCukakJukebox
+  name: Ai đưa em về (Low cortisol)
+  path:
+    path: /Audio/_Suziford/Jukebox/AiduaemveCukak-Remix.ogg
+
+- type: jukebox
+  id: BlackKnifeJukebox
+  name: Black Knife - TobyFox
+  path:
+    path: /Audio/_Suziford/Jukebox/BlackKnife.ogg
+
+#- type: jukebox
+#  id: 
+#  name: 
+#  path:
+#    path: /Audio/_Suziford/Jukebox/
+
+
+
+# ot moloyvaxa
+
+
+
+
+
+- type: jukebox
+  id: BershyRadio
+  name: Bershy - Radio
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/radio.ogg
+
+- type: jukebox
+  id: sundownerRedSun
+  name: Sundowner - Red Sun Over Paradise
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/redsunMGR.ogg
+
+- type: jukebox
+  id: samTOTIKFR
+  name: Samuel Rodriges - The Only Thing I Know For Real
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/TOTIKFR.ogg
+
+- type: jukebox
+  id: ArmstrongIHTBTW
+  name: Armstrong - It Has To Be This Way
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/ihtbtw.ogg
+
+- type: jukebox
+  id: TarkovStreets
+  name: EFT OST - Песнь Улиц Таркова
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/tarkovstreets.ogg
+    
+- type: jukebox
+  id: EFTPatchOSTfifth
+  name: EFT OST - Музыка 0.15 патча
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/trailermusfifth.ogg
+
+- type: jukebox
+  id: GeneburnSirenyviySon
+  name: Geneburn - Сиреневый сон
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/trailermussixteen.ogg
+
+- type: jukebox
+  id: GeneburnROE
+  name: Geneburn - Rules Of Engagement
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/roe.ogg   
+
+- type: jukebox
+  id: GeneburnEclipse
+  name: Geneburn - Eclipse
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/eclipse.ogg
+
+- type: jukebox
+  id: GeneburnDarkHorizons
+  name: Geneburn - Dark Horizons
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/darkhorizons.ogg
+
+- type: jukebox
+  id: UnknownAuthorLibetDelay
+  name: Libet's Delay
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/libetdelay.ogg
+
+- type: jukebox
+  id: ItsPlaytime
+  name: It's Playtime
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/itsplaytime.ogg
+
+- type: jukebox
+  id: MouthwashingMainTheme
+  name: Mouthwashing - Main Theme
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/mouthwashing.ogg
+
+- type: jukebox
+  id: CaretakerIJABM
+  name: The Caretaker - It's Just A Burning Memory
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/TheCaretaker.ogg
+
+- type: jukebox
+  id: BloodDebtJustice
+  name: Blood Debt - Justice
+  path:
+    path: /Audio/_Suziford/Jukebox/moloyvaxa/Justice.ogg
+
+
+
+
+
+
+# от black_wolf
+
+
+
+
+- type: jukebox
+  id: allForNowLudowic
+  name: All For Now - LudoWic
+  path:
+    path: /Audio/_Suziford/Jukebox/blackwolf/AllforNow.ogg
+
+- type: jukebox
+  id: PrisonAir2Ludowic
+  name: Prison Air 2 - LudoWic
+  path:
+    path: /Audio/_Suziford/Jukebox/blackwolf/PrisonAir2.ogg
+
+- type: jukebox
+  id: ThirdDistrictLudowic
+  name: Third District - LudoWic
+  path:
+    path: /Audio/_Suziford/Jukebox/blackwolf/ThirdDistrict.ogg
+
+- type: jukebox
+  id: LetItHappenJukebox
+  name: Let It Happen - Tame Impala
+  path:
+    path: /Audio/_Suziford/Jukebox/blackwolf/LetItHappen.ogg
