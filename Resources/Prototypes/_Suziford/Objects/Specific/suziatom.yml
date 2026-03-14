@@ -1,0 +1,55 @@
+- type: entity
+  name: СузиАтом
+  parent: [BaseItem]
+  id: SuziAtom
+  suffix: 100 SA
+  description: Валюта нашумевшего магазина "СузиПлинк".
+  components:
+  - type: Sprite
+    sprite: _Suziford/Objects/Specific/suziatom.rsi
+    state: suziatom
+  - type: Item
+    sprite: _Suziford/Objects/Specific/suziatom.rsi
+    size: Tiny
+  - type: Stack
+    count: 100
+    stackType: SuziAtom
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 100
+  - type: Currency
+    price:
+      SuziAtom: 1
+
+- type: entity
+  parent: Telecrystal
+  id: SuziAtom1
+  suffix: 1 SA
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: Telecrystal
+  id: SuziAtom15
+  suffix: 15 SA
+  components:
+  - type: Stack
+    count: 15
+
+- type: entity
+  parent: Telecrystal
+  id: SuziAtom30
+  suffix: 30 SA
+  components:
+  - type: Stack
+    count: 30
+
+- type: entity
+  parent: Telecrystal
+  id: SuziAtom50
+  suffix: 50 SA
+  components:
+  - type: Stack
+    count: 50
