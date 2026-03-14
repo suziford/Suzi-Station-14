@@ -72,6 +72,21 @@
       collection: MaleDeathGasp
     Gulp: # Goob
       path: /Audio/_Goobstation/Voice/gulpexotic.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: FemaleAvaliEmote
@@ -122,3 +137,18 @@
       collection: FemaleDeathGasp
     Gulp: # Goob
       path: /Audio/_Goobstation/Voice/gulpexotic.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryFemale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg

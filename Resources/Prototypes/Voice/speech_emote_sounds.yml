@@ -105,6 +105,21 @@
       collection: ReptilianHisses
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: FemaleHuman
@@ -151,6 +166,21 @@
       path: /Audio/_Goobstation/Voice/Human/gulp.ogg
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryFemale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds ## GOOB CONTENT START
   id: MonkeyMode
@@ -197,6 +227,21 @@
       path: /Audio/_Goobstation/Voice/Human/gulp.ogg ## GOOB CONTENT END
     Hiss: # Orion
       collection: ReptilianHisses
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: MaleReptilian
@@ -235,6 +280,21 @@
       collection: ReptilianHisses
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: FemaleReptilian
@@ -273,6 +333,21 @@
       collection: ReptilianHisses
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryFemale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: MaleSlime
@@ -327,6 +402,21 @@
       path: /Audio/_Goobstation/Voice/surprised.ogg
   params:
     variation: 0.125
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: FemaleSlime
@@ -381,6 +471,21 @@
       path: /Audio/_Goobstation/Voice/surprised.ogg
   params:
     variation: 0.125
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryFemale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexVox
@@ -437,6 +542,21 @@
       collection: HarpyCaws
   params:
     variation: 0.125
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexDiona
@@ -477,6 +597,21 @@
       collection: Dionasigh
   params:
     variation: 0.125
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexArachnid
@@ -509,6 +644,21 @@
       path: /Audio/_Goobstation/Voice/gulpexotic.ogg
     Hiss: # Orion
       collection: ReptilianHisses
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexDwarf
@@ -558,6 +708,21 @@
   params:
     variation: 0.125
     pitch: 0.75
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: FemaleDwarf
@@ -607,6 +772,21 @@
   params:
     variation: 0.125
     pitch: 0.75
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryFemale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexMoth
@@ -659,6 +839,21 @@
       collection: MaleSneezes
     Cough:
       collection: MaleCoughs
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: MaleMoth
@@ -711,6 +906,21 @@
       collection: MaleSneezes
     Cough:
       collection: MaleCoughs
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: FemaleMoth
@@ -763,6 +973,21 @@
       collection: FemaleSneezes
     Cough:
       collection: FemaleCoughs
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryFemale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexSilicon
@@ -811,6 +1036,21 @@
         variation: 0.125
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexSiliconSyndicate
@@ -851,6 +1091,21 @@
         variation: 0.125
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 - type: emoteSounds
   id: UnisexSiliconXenoborg
@@ -888,6 +1143,21 @@
         variation: 0.125
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
+      # suzi-station emotes
+    SillyLaugh3:
+      path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
+    BuzzCorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_correct.ogg
+    BuzzIncorrectEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buzzer_incorrect.ogg
+    YippeeeEmote:
+      path: /Audio/_Suziford/Voice/Emotes/yippee.ogg
+      params:
+        volume: -6
+    WarcryEmoteNew:
+      collection: WarcryMale
+    QueenLaughEmote:
+      path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
 
 # body emotes
 - type: emoteSounds
@@ -903,6 +1173,15 @@
       collection: Salutes
     Crack: # Imp
       collection: Cracks # Imp
+       # suzi-station emotes
+    EmotePoseSound:
+      path: /Audio/_Suziford/Voice/Emotes/phillyhit.ogg
+    BuffEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buff.ogg
+    BlinkEmote:
+      path: /Audio/_Suziford/Voice/Emotes/blink.ogg
+    TerrorEmote:
+      path: /Audio/_Suziford/Voice/Emotes/terror1.ogg 
 
 - type: emoteSounds
   id: DionaBodyEmotes
@@ -919,6 +1198,15 @@
        volume: -5
     Crack: # Imp
       collection: Cracks # Imp
+       # suzi-station emotes
+    EmotePoseSound:
+      path: /Audio/_Suziford/Voice/Emotes/phillyhit.ogg
+    BuffEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buff.ogg
+    BlinkEmote:
+      path: /Audio/_Suziford/Voice/Emotes/blink.ogg
+    TerrorEmote:
+      path: /Audio/_Suziford/Voice/Emotes/terror1.ogg 
 
 - type: emoteSounds
   id: ReptilianBodyEmotes
@@ -937,6 +1225,15 @@
       collection: Salutes
     Crack: # Imp
       collection: Cracks # Imp
+       # suzi-station emotes
+    EmotePoseSound:
+      path: /Audio/_Suziford/Voice/Emotes/phillyhit.ogg
+    BuffEmote:
+      path: /Audio/_Suziford/Voice/Emotes/buff.ogg
+    BlinkEmote:
+      path: /Audio/_Suziford/Voice/Emotes/blink.ogg
+    TerrorEmote:
+      path: /Audio/_Suziford/Voice/Emotes/terror1.ogg 
 
 # mobs
 - type: emoteSounds

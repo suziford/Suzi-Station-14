@@ -1,0 +1,131 @@
+- type: emote
+  id: SillyLaugh3
+  name: Силли смех
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: 
+   - угарает!
+  chatTriggers:
+   - Угар
+   - Угарает
+   - Laugh3
+
+- type: emote
+  id: EmotePoseSound
+  name: Стойка
+  category: Hands
+  icon: _Goobstation/Interface/Emotes/surprised.png
+  whitelist:
+    components:
+    - Hands
+  chatMessages: 
+   - встаёт в крутую позу!
+  chatTriggers:
+   - Встаёт в позу
+
+- type: emote
+  id: BuzzCorrectEmote
+  name: Правильное жжужание
+  category: Vocal
+  icon: Interface/Emotes/ping.png
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: 
+   - правильно жжужит
+  chatTriggers:
+   - правильно жжужит
+
+- type: emote
+  id: BuzzIncorrectEmote
+  name: Неправильное жжужание
+  category: Vocal
+  icon: Interface/Emotes/ping.png
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: 
+   - неправильно жжужит
+  chatTriggers:
+   - неправильно жжужит
+
+- type: emote
+  id: BuffEmote
+  name: Мускулы
+  category: Hands
+  icon: Interface/Emotes/vocal.png
+  whitelist:
+    components:
+    - Hands
+  chatMessages: 
+   - покачивает своими мускулами!
+  chatTriggers:
+   - покачивает своими мускулам
+
+- type: emote
+  id: YippeeeEmote
+  name: Yipeee
+  category: Vocal
+  icon: Interface/Emotes/weh.png
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: 
+   - yippeee!!!!
+  chatTriggers:
+   - yippeee
+
+- type: emote
+  id: BlinkEmote
+  name: Моргание
+  category: Hands
+  icon: Interface/Emotes/hew.png
+  whitelist:
+    components:
+    - Hands
+  chatMessages: 
+   - моргает.
+  chatTriggers:
+   - моргает
+
+- type: emote
+  id: TerrorEmote
+  name: Смотреть в душу...
+  category: Hands
+  icon: Interface/Emotes/deathgasp.png
+  whitelist:
+    components:
+    - Hands
+  chatMessages: 
+   - ...
+  chatTriggers:
+   - пристально наблюдает за...
+
+- type: emote
+  id: WarcryEmoteNew
+  name: Warcry
+  category: Vocal
+  icon: Interface/Emotes/scream.png
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: 
+   - WARCRYING!
+  chatTriggers:
+   - warcry
+
+- type: emote
+  id: QueenLaughEmote
+  name: Смех королевы
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: 
+   - Смеётся по королевски!
+  chatTriggers:
+   - Смеётся по королевски!
