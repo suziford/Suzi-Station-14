@@ -1,0 +1,12 @@
+- type: entity
+  id: StorePresetSuziPlink
+  abstract: true
+  components:
+  - type: Store
+    name: СузиПлинк
+    categories:
+    - SuziPlinkDevices
+    currencyWhitelist:
+    - SuziAtom
+    balance:
+      SuziAtom: 0

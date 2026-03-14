@@ -1,0 +1,9 @@
+- type: listing
+  id: SuziPlinkBoombox
+  name: Бумбокс
+  description: Музыкальный Бумбокс (колонка для шкіляр)
+  productEntity: SuziBoomBox
+  cost:
+    SuziAtom: 15
+  categories:
+  - SuziPlinkDevices
