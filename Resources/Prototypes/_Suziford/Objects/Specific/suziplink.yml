@@ -3,7 +3,6 @@
   id: BaseSuziPlinkPhone
   name: СузиПлинк
   description: Модный приговор, нашумевший магазин сети станций "Suzi Staiton".
-  suffix: Empty
   components:
   - type: Sprite
     sprite: _Suziford/Objects/Specific/suziplink.rsi

@@ -23,7 +23,7 @@
       SuziAtom: 1
 
 - type: entity
-  parent: Telecrystal
+  parent: SuziAtom
   id: SuziAtom1
   suffix: 1 SA
   components:
@@ -31,7 +31,7 @@
     count: 1
 
 - type: entity
-  parent: Telecrystal
+  parent: SuziAtom
   id: SuziAtom15
   suffix: 15 SA
   components:
@@ -39,7 +39,7 @@
     count: 15
 
 - type: entity
-  parent: Telecrystal
+  parent: SuziAtom
   id: SuziAtom30
   suffix: 30 SA
   components:
@@ -47,7 +47,7 @@
     count: 30
 
 - type: entity
-  parent: Telecrystal
+  parent: SuziAtom
   id: SuziAtom50
   suffix: 50 SA
   components:
