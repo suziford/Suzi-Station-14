@@ -242,6 +242,7 @@
   - TapeRecorder
   - DrinkOniGourd
   # End DeltaV Additions
+  - BaseSuziPlinkPhone150SA # SuziStation added
 
 - type: loadoutGroup
   id: Glasses
