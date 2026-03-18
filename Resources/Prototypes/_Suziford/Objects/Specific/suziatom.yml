@@ -3,7 +3,7 @@
   parent: BaseItem
   id: SuziAtom
   suffix: 100 SA
-  description: Валюта нашумевшего магазина "СузиПлинк".
+  description: Квантовая валюта магазина "СузиПлинк".
   components:
   - type: Sprite
     sprite: _Suziford/Objects/Specific/suziatom.rsi

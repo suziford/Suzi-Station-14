@@ -1,6 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BaseSuziPlinkPhone
+  suffix: Empty
   name: СузиПлинк
   description: Модный приговор, нашумевший магазин сети станций "Suzi Staiton".
   components:
@@ -25,3 +26,30 @@
     - SuziAtom
     balance:
       SuziAtom: 0
+
+- type: entity
+  parent: BaseSuziPlinkPhone
+  id: BaseSuziPlinkPhone100SA
+  suffix: 100 SA
+  components:
+  - type: Store
+    balance:
+      SuziAtom: 100
+
+- type: entity
+  parent: BaseSuziPlinkPhone
+  id: BaseSuziPlinkPhone150SA
+  suffix: 150 SA
+  components:
+  - type: Store
+    balance:
+      SuziAtom: 150
+
+- type: entity
+  parent: BaseSuziPlinkPhone
+  id: BaseSuziPlinkPhone200SA
+  suffix: 200 SA
+  components:
+  - type: Store
+    balance:
+      SuziAtom: 200
