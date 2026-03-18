@@ -1,6 +1,6 @@
 - type: entity
   name: СузиАтом
-  parent: [BaseItem]
+  parent: BaseItem
   id: SuziAtom
   suffix: 100 SA
   description: Валюта нашумевшего магазина "СузиПлинк".
@@ -53,3 +53,16 @@
   components:
   - type: Stack
     count: 50
+
+- type: currency
+  id: SuziAtom
+  displayName: СузиАтом
+  cash:
+    1: SuziAtom1
+  canWithdraw: true
+
+- type: stack
+  id: SuziAtom
+  name: stack-suziatom
+  icon: _Suziford/Objects/Specific/suziatom.rsi
+  spawn: SuziAtom1

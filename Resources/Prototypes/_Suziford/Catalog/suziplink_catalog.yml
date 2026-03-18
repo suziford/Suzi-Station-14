@@ -2,7 +2,7 @@
   id: SuziPlinkBoombox
   name: Бумбокс
   description: Музыкальный Бумбокс (колонка для шкіляр)
-  icon: { sprite: /Textures/Devices/boombox.rsi, state: icon }
+  icon: { sprite: /Textures/_Suziford/Devices/boombox.rsi, state: icon }
   productEntity: SuziBoomBox
   cost:
     SuziAtom: 15
