@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, StorePresetSuziPlink]
+  parent: BaseItem
   id: BaseSuziPlinkPhone
   name: СузиПлинк
   description: Модный приговор, нашумевший магазин сети станций "Suzi Staiton".
@@ -18,5 +18,10 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
+    preset: StorePresetSuziPlink
+    categories:
+    - SuziPlinkDevices
+    currencyWhitelist:
+    - SuziAtom
     balance:
       SuziAtom: 0
