@@ -1,0 +1,9 @@
+- type: entity
+  parent: ClothingNeckCloakCe
+  id: ClothingNeckEliteCloakCECloak
+  name: chief engineer's cloak
+  description: Weighty but very luxurious white coat with gold ribbons. There is a small label on the back "Change fuel at DAM".
+  components:
+  - type: Sprite
+    sprite: _Suziford/Clothing/Neck/Cloaks/cecloak.rsi
+    state: icon

@@ -2,3 +2,13 @@
   id: SuziPlinkDevices
   name: Девайсы
   priority: 0
+
+- type: storeCategory
+  id: SuziPlinkClothing
+  name: Одежда
+  priority: 1
+
+- type: storeCategory
+  id: SuziPlinkInterestingClothing
+  name: Interesting одежда
+  priority: 2

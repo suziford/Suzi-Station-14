@@ -1,0 +1,12 @@
+- type: entity
+  id: BriefcaseBrownBunnyUniformSetFilled
+  parent: BriefcaseBrown
+  suffix: Filled, BunnySet
+  components:
+  - type: StorageFill
+    contents:
+      - id: BunnyUniform
+      - id: BunnyButterfly
+      - id: BunnyEars
+  - type: StaticPrice
+    price: 120

@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingUnderwearBase
+  id: ADTClothingUnderwearBottomPantiesCow
+  name: cow panties
+  description: Cute cow-themed panties. Moo!
+  components:
+  - type: Sprite
+    sprite: _Suziford/Clothing/Underwear/Underwear/panties_cow.rsi

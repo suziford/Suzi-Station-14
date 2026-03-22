@@ -3,13 +3,14 @@
   id: BaseSuziPlinkPhone
   suffix: Empty
   name: СузиПлинк
-  description: Модный приговор, нашумевший магазин сети станций "Suzi Staiton".
+  description: Модный приговор, нашумевший магазин сети станций "Suzi Statiton".
   components:
   - type: Sprite
     sprite: _Suziford/Objects/Specific/suziplink.rsi
     layers:
     - state: suziplink
   - type: Item
+    size: Normal
     sprite: _Suziford/Objects/Specific/suziplink.rsi
     heldPrefix: suziplink
   - type: UserInterface
@@ -22,34 +23,36 @@
     preset: StorePresetSuziPlink
     categories:
     - SuziPlinkDevices
+    - SuziPlinkClothing
+    - SuziPlinkInterestingClothing
     currencyWhitelist:
-    - SuziAtom
+    - SuziCartridge
     balance:
-      SuziAtom: 0
+      SuziCartridge: 0
 
 - type: entity
   parent: BaseSuziPlinkPhone
-  id: BaseSuziPlinkPhone100SA
-  suffix: 100 SA
+  id: BaseSuziPlinkPhone100NS
+  suffix: 100 НС
   components:
   - type: Store
     balance:
-      SuziAtom: 100
+      SuziCartridge: 100
 
 - type: entity
   parent: BaseSuziPlinkPhone
-  id: BaseSuziPlinkPhone150SA
-  suffix: 150 SA
+  id: BaseSuziPlinkPhone150NS
+  suffix: 150 НС
   components:
   - type: Store
     balance:
-      SuziAtom: 150
+      SuziCartridge: 150
 
 - type: entity
   parent: BaseSuziPlinkPhone
-  id: BaseSuziPlinkPhone200SA
-  suffix: 200 SA
+  id: BaseSuziPlinkPhone200NS
+  suffix: 200 НС
   components:
   - type: Store
     balance:
-      SuziAtom: 200
+      SuziCartridge: 200

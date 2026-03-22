@@ -1,0 +1,68 @@
+- type: entity
+  name: картридж "НаноЧастицы Сузи"
+  parent: BaseItem
+  id: SuziCartridge
+  suffix: 100 НС
+  description: Картридж валюты магазина "СузиПлинк".
+  components:
+  - type: Sprite
+    sprite: _Suziford/Objects/Specific/suzicartridge.rsi
+    state: suzicartridge
+  - type: Item
+    sprite: _Suziford/Objects/Specific/suzicartridge.rsi
+    size: Tiny
+  - type: Stack
+    count: 100
+    stackType: SuziCartridge
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 100
+  - type: Currency
+    price:
+      SuziCartridge: 1
+
+- type: entity
+  parent: SuziCartridge
+  id: SuziCartridge1
+  suffix: 1 НС
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: SuziCartridge
+  id: SuziCartridge15
+  suffix: 15 НС
+  components:
+  - type: Stack
+    count: 15
+
+- type: entity
+  parent: SuziCartridge
+  id: SuziCartridge30
+  suffix: 30 НС
+  components:
+  - type: Stack
+    count: 30
+
+- type: entity
+  parent: SuziCartridge
+  id: SuziCartridge50
+  suffix: 50 НС
+  components:
+  - type: Stack
+    count: 50
+
+- type: currency
+  id: SuziCartridge
+  displayName: НаноЧастицы "Сузи"
+  cash:
+    1: SuziCartridge1
+  canWithdraw: true
+
+- type: stack
+  id: SuziCartridge
+  name: stack-suzicartridge
+  icon: _Suziford/Objects/Specific/suzicartridge.rsi
+  spawn: SuziCartridge1
