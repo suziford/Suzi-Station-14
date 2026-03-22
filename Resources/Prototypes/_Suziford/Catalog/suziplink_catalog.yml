@@ -1,3 +1,5 @@
+# Devices
+
 - type: listing
   id: SuziPlinkBoombox
   name: Бумбокс
@@ -5,6 +7,143 @@
   icon: { sprite: /Textures/_Suziford/Devices/boombox.rsi, state: icon }
   productEntity: SuziBoomBox
   cost:
-    SuziAtom: 15
+    SuziCartridge: 30
   categories:
   - SuziPlinkDevices
+
+# Interesting Clothing
+
+- type: listing
+  id: SuziPlinkBoxCowUnderwearSet
+  name: Набор коровьего белья
+  description: Полный комплект милого белья с коровьим принтом. Муу!
+  icon: { sprite: /Textures/_Suziford/Clothing/Underwear/Undershirt/bra_cow.rsi, state: icon }
+  productEntity: ADTBoxCowUnderwearSet
+  cost:
+    SuziCartridge: 40
+  categories:
+  - SuziPlinkInterestingClothing
+
+- type: listing
+  id: SuziPlinkBoxBunnyUniformSet
+  name: Набор костюма кролика
+  description: Самый популярный наряд во всех казино и ночных клубов вселенных. Незаменимая классика, которая на протяжении времени становилась всё краше и краше.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/bunny.rsi, state: icon }
+  productEntity: BriefcaseBrownBunnyUniformSetFilled
+  cost:
+    SuziCartridge: 55
+  categories:
+  - SuziPlinkInterestingClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformSwimBlack
+  name: Чёрный купальник
+  description: Стильный чёрный купальник для пляжа или бассейна
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/swim_black.rsi, state: icon }
+  productEntity: ADTClothingUniformSwimBlack
+  cost:
+    SuziCartridge: 25
+  categories:
+  - SuziPlinkInterestingClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformSwimBlue
+  name: Синий купальник
+  description: Яркий синий купальник, идеально подходящий для летних дней.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/swim_blue.rsi, state: icon }
+  productEntity: ADTClothingUniformSwimBlue
+  cost:
+    SuziCartridge: 25
+  categories:
+  - SuziPlinkInterestingClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformSwimDarkGreen
+  name: Тёмно-зелёный купальник
+  description: Тёмно-зелёный купальник с классическим видом.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/swim_dark_green.rsi, state: icon }
+  productEntity: ADTClothingUniformSwimDarkGreen
+  cost:
+    SuziCartridge: 25
+  categories:
+  - SuziPlinkInterestingClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformSwimGreen
+  name: Зелёный купальник
+  description: Яркий зелёный купальник для смелых.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/swim_green.rsi, state: icon }
+  productEntity: ADTClothingUniformSwimGreen
+  cost:
+    SuziCartridge: 25
+  categories:
+  - SuziPlinkInterestingClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformSwimPurple
+  name: Фиолетовый купальник
+  description: Красивый фиолетовый купальник с элегантным дизайном.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/swim_purp.rsi, state: icon }
+  productEntity: ADTClothingUniformSwimPurple
+  cost:
+    SuziCartridge: 25
+  categories:
+  - SuziPlinkInterestingClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformSwimRed
+  name: Красный купальник
+  description: Потрясающий красный купальник, который привлекает взгляды.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/swim_red.rsi, state: icon }
+  productEntity: ADTClothingUniformSwimRed
+  cost:
+    SuziCartridge: 25
+  categories:
+  - SuziPlinkInterestingClothing
+
+
+# Clothing
+
+- type: listing
+  id: SuziPlinkClothingNeckEliteCloakCECloak
+  name: Плащ старшего инженера
+  description: Увесистый, но очень роскошный белый плащ с золотыми лентами. На обратной стороне имеется маленькая этикетка "Поменяйте топливо в ДАМ".
+  icon: { sprite: /Textures/_Suziford/Clothing/Neck/Cloaks/cecloak.rsi, state: icon }
+  productEntity: ClothingNeckEliteCloakCECloak
+  cost:
+    SuziCartridge: 50
+  categories:
+  - SuziPlinkClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformDressVintage
+  name: Винтажное платье
+  description: Красивое винтажное платье для особых случаев.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/dress_vintage.rsi, state: icon }
+  productEntity: ADTClothingUniformDressVintage
+  cost:
+    SuziCartridge: 45
+  categories:
+  - SuziPlinkClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformTangoDressBlack
+  name: Чёрное платье для танго
+  description: Элегантное чёрное платье для страстных танцев.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/tango_dress_black.rsi, state: icon }
+  productEntity: ADTClothingUniformTangoDressBlack
+  cost:
+    SuziCartridge: 45
+  categories:
+  - SuziPlinkClothing
+
+- type: listing
+  id: SuziPlinkClothingUniformTangoDressWhite
+  name: Белое платье для танго
+  description: Грациозное белое платье для элегантных выступлений.
+  icon: { sprite: /Textures/_Suziford/Clothing/Uniforms/Jumpskirt/tango_dress_white.rsi, state: icon }
+  productEntity: ADTClothingUniformTangoDressWhite
+  cost:
+    SuziCartridge: 45
+  categories:
+  - SuziPlinkClothing

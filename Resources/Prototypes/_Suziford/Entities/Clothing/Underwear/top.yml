@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBraBase
+  id: ADTClothingUnderwearTopBraCow
+  name: cow bra
+  description: Cute cow-themed bra. Moo!
+  components:
+  - type: Sprite
+    sprite: _Suziford/Clothing/Underwear/Undershirt/bra_cow.rsi
