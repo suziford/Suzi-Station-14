@@ -77,12 +77,6 @@
     path: /Audio/_Suziford/Jukebox/chinaRep.ogg
 
 - type: jukebox
-  id: flowersTemniy
-  name: Цветы - Тёмный Принц
-  path:
-    path: /Audio/_Suziford/Jukebox/flowers.ogg
-
-- type: jukebox
   id: looseCannon
   name: Loose Cannon
   path:
@@ -222,13 +216,13 @@
 
 - type: jukebox
   id: TheworldRevolvingJukebox
-  name: THE WORLD REVOLVING - TobyFox
+  name: TobyFox - THE WORLD REVOLVING
   path:
     path: /Audio/_Suziford/Jukebox/THEWORLDREVOLVING.ogg
 
 - type: jukebox
   id: SpamtonJukebox
-  name: Spamton - TobyFox
+  name: TobyFox - Spamton
   path:
     path: /Audio/_Suziford/Jukebox/Spamton.ogg
 
@@ -240,25 +234,25 @@
 
 - type: jukebox
   id: QueenJukebox
-  name: Queen - TobyFox
+  name: TobyFox - Queen
   path:
     path: /Audio/_Suziford/Jukebox/Queen.ogg
 
 - type: jukebox
   id: LancerJukebox
-  name: Lancer - TobyFox
+  name: TobyFox - Lancer
   path:
     path: /Audio/_Suziford/Jukebox/Lancer.ogg
 
 - type: jukebox
   id: ItsTVTimeJukebox
-  name: It's TV Time! - TobyFox
+  name: TobyFox - It's TV Time!
   path:
     path: /Audio/_Suziford/Jukebox/ItsTVTime.ogg
 
 - type: jukebox
   id: DontForgetJukebox
-  name: Don't Forget - TobyFox
+  name: TobyFox - Don't Forget
   path:
     path: /Audio/_Suziford/Jukebox/DontForget.ogg
 
@@ -270,7 +264,7 @@
 
 - type: jukebox
   id: BlackKnifeJukebox
-  name: Black Knife - TobyFox
+  name: TobyFox - Black Knife
   path:
     path: /Audio/_Suziford/Jukebox/BlackKnife.ogg
 
