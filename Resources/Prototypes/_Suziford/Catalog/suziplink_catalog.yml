@@ -101,6 +101,17 @@
   categories:
   - SuziPlinkInterestingClothing
 
+- type: listing
+  id: SuziPlinkClothingOuterDavidsJacketValid
+  name: Куртка эджраннера [КОНТРАБАНДА]
+  description: Ты на самой грани. Покажи им, что ты готов на всё.
+  icon: { sprite: /Textures/_Suziford/Clothing/OuterClothing/Coats/david_jacket.rsi, state: icon }
+  productEntity: ADTClothingOuterDavidsJacketValid
+  cost:
+    SuziCartridge: 155
+  categories:
+  - SuziPlinkInterestingClothing
+
 
 # Clothing
 
@@ -145,5 +156,16 @@
   productEntity: ADTClothingUniformTangoDressWhite
   cost:
     SuziCartridge: 45
+  categories:
+  - SuziPlinkClothing
+
+- type: listing
+  id: SuziPlinkClothingOuterDavidsJacket
+  name: Куртка парамедика
+  description: Ярко-желтая сигнальная куртка, которую обожают парамедики конца XXI века.
+  icon: { sprite: /Textures/_Suziford/Clothing/OuterClothing/Coats/david_jacket.rsi, state: icon }
+  productEntity: ADTClothingOuterDavidsJacket
+  cost:
+    SuziCartridge: 60
   categories:
   - SuziPlinkClothing
