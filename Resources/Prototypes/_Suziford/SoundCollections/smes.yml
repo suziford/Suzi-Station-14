@@ -1,0 +1,8 @@
+- type: soundCollection
+  id: SmesSFX
+  files:
+  - /Audio/_Suziford/Ambience/Smes/beep1.ogg
+  - /Audio/_Suziford/Ambience/Smes/spark1.ogg
+  - /Audio/_Suziford/Ambience/Smes/spark2.ogg
+  - /Audio/_Suziford/Ambience/Smes/spark3.ogg
+  - /Audio/_Suziford/Ambience/Smes/switch.ogg

@@ -1,0 +1,13 @@
+- type: soundCollection
+  id: ServerSFX
+  files:
+  - /Audio/_Suziford/Ambience/Servers/beep1.ogg
+  - /Audio/_Suziford/Ambience/Servers/beep2.ogg
+  - /Audio/_Suziford/Ambience/Servers/beep3.ogg
+  - /Audio/_Suziford/Ambience/Servers/beep4.ogg
+  - /Audio/_Suziford/Ambience/Servers/beep5.ogg
+  - /Audio/_Suziford/Ambience/Servers/beep6.ogg
+  - /Audio/_Suziford/Ambience/Servers/buzz1.ogg
+  - /Audio/_Suziford/Ambience/Servers/buzz2.ogg
+  - /Audio/_Suziford/Ambience/Servers/buzz3.ogg
+  - /Audio/_Suziford/Ambience/Servers/hum1.ogg

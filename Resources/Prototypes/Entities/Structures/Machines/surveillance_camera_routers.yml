@@ -27,6 +27,16 @@
           type: SurveillanceCameraSetupBoundUi
     - type: Machine
       board: SurveillanceCameraRouterCircuitboard
+    - type: SpamEmitSoundRequirePower
+    - type: SpamEmitSound
+      minInterval: 20
+      maxInterval: 60
+      sound:
+        collection: ServerSFX
+        params:
+          volume: -3
+          maxDistance: 5
+          variation: 0.15
     - type: Sprite
       sprite: Structures/Machines/server.rsi
       snapCardinals: true
@@ -162,6 +172,16 @@
           type: SurveillanceCameraSetupBoundUi
     - type: Machine
       board: SurveillanceCameraWirelessRouterCircuitboard
+    - type: SpamEmitSoundRequirePower
+    - type: SpamEmitSound
+      minInterval: 20
+      maxInterval: 60
+      sound:
+        collection: ServerSFX
+        params:
+          volume: -3
+          maxDistance: 5
+          variation: 0.15
     - type: Sprite
       sprite: Structures/Machines/server.rsi
       layers:

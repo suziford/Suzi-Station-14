@@ -683,6 +683,11 @@
   - type: GuideHelp
     guides:
     - Robotics
+  # SuziStation update start
+  - type: Tag
+    tags:
+    - SuziRoboticsAmbience
+  # SuziStation update end
 
 - type: entity
   id: Biofabricator
