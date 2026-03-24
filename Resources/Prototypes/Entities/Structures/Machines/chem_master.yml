@@ -187,3 +187,8 @@
     guides:
     - Chemicals
     - Chemist
+  # SuziStation update start
+  - type: Tag
+    tags:
+    - SuziChemistryAmbience
+  # SuziStation update end

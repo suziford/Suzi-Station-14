@@ -56,6 +56,12 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: AmbientOnPowered
+  - type: AmbientSound
+    volume: -4
+    range: 4
+    sound:
+      path: /Audio/_Suziford/Ambience/Ame/active.ogg
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite

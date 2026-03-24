@@ -182,7 +182,7 @@
     openSound:
       path: /Audio/Machines/windoor_open.ogg
     closeSound:
-      path: /Audio/Machines/windoor_open.ogg
+      path: /Audio/Machines/windoor_close.ogg
     denySound:
       path: /Audio/Machines/airlock_deny.ogg
   - type: Airlock

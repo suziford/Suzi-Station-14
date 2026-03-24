@@ -165,11 +165,27 @@
     - /Audio/Voice/Misc/lowHiss4.ogg
     - /Audio/Ambience/maintambience.ogg
     - /Audio/_Goobstation/Ambience/ambihullcreak.ogg # Goobstation
+    # SuziStation update start
+    - /Audio/_Suziford/Ambience/ambimaint6.ogg
+    - /Audio/_Suziford/Ambience/ambimaint7.ogg
+    - /Audio/_Suziford/Ambience/ambimaint8.ogg
+    - /Audio/_Suziford/Ambience/ambimaint9.ogg
+    - /Audio/_Suziford/Ambience/ambimaint10.ogg
+    - /Audio/_Suziford/Ambience/ambimaint11.ogg
+    - /Audio/_Suziford/Ambience/ambimaint12.ogg
+    # SuziStation update end
 
 - type: soundCollection
   id: AmbienceMedical
   files:
     - /Audio/Ambience/ambinice.ogg
+    # SuziStation update start
+    - /Audio/_Suziford/Ambience/medbay_1.ogg
+    - /Audio/_Suziford/Ambience/medbay_2.ogg
+    - /Audio/_Suziford/Ambience/medbay_3.ogg
+    - /Audio/_Suziford/Ambience/medbay_4.ogg
+    - /Audio/_Suziford/Ambience/medbay_5.ogg
+    # SuziStation update end
 
 - type: soundCollection
   id: AmbienceMining

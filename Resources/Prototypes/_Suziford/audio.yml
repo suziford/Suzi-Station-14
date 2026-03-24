@@ -1,0 +1,131 @@
+# Robotics
+
+- type: ambientMusic
+  id: SuziRobotics
+  sound:
+    params:
+      volume: -12
+    collection: SuziAmbienceRobotics
+  rules: SuziNearRobotics
+  priority: 4
+
+- type: rules
+  id: SuziNearRobotics
+  rules:
+    - !type:NearbyEntitiesRule
+      count: 1
+      whitelist:
+        tags:
+          - SuziRoboticsAmbience
+      range: 4
+
+- type: soundCollection
+  id: SuziAmbienceRobotics
+  files:
+    - /Audio/_Suziford/Ambience/robotics_1.ogg
+    - /Audio/_Suziford/Ambience/robotics_2.ogg
+
+# Vault
+
+- type: ambientMusic
+  id: SuziVault
+  sound:
+    params:
+      volume: -12
+    collection: SuziAmbienceVault
+  rules: SuziNearVault
+  priority: 2
+
+- type: rules
+  id: SuziNearVault
+  rules:
+    - !type:NearbyEntitiesRule
+      count: 1
+      whitelist:
+        tags:
+          - SuziVaultAmbience
+      range: 1
+
+- type: soundCollection
+  id: SuziAmbienceVault
+  files:
+    - /Audio/_Suziford/Ambience/vault_1.ogg
+
+# Chemistry
+
+- type: ambientMusic
+  id: SuziChemistry
+  sound:
+    params:
+      volume: -12
+    collection: SuziAmbienceChemistry
+  rules: SuziNearChemistry
+  priority: 4
+
+- type: rules
+  id: SuziNearChemistry
+  rules:
+    - !type:NearbyEntitiesRule
+      count: 1
+      whitelist:
+        tags:
+          - SuziChemistryAmbience
+      range: 3
+
+- type: soundCollection
+  id: SuziAmbienceChemistry
+  files:
+    - /Audio/_Suziford/Ambience/chemistry_1.ogg
+    - /Audio/_Suziford/Ambience/chemistry_2.ogg
+
+# Research
+
+- type: ambientMusic
+  id: SuziResearch
+  sound:
+    params:
+      volume: -12
+    collection: SuziAmbienceResearch
+  rules: SuziNearResearch
+  priority: 3
+
+- type: rules
+  id: SuziNearResearch
+  rules:
+    - !type:NearbyAccessRule
+      count: 5
+      access:
+        - Research
+      range: 3
+
+- type: soundCollection
+  id: SuziAmbienceResearch
+  files:
+    - /Audio/_Suziford/Ambience/rnd_1.ogg
+    - /Audio/_Suziford/Ambience/rnd_2.ogg
+
+# Security
+
+- type: ambientMusic
+  id: SuziSecurity
+  sound:
+    params:
+      volume: -12
+    collection: SuziAmbienceSecurity
+  rules: SuziNearSecurity
+  priority: 3
+
+- type: rules
+  id: SuziNearSecurity
+  rules:
+    - !type:NearbyAccessRule
+      count: 7
+      access:
+        - Security
+      range: 3
+
+- type: soundCollection
+  id: SuziAmbienceSecurity
+  files:
+    - /Audio/_Suziford/Ambience/prison_1.ogg
+    - /Audio/_Suziford/Ambience/ambidet2.ogg

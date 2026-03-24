@@ -1,0 +1,9 @@
+- type: soundCollection
+  id: FuelInjectAmeSFX
+  files:
+  - /Audio/_Suziford/Ambience/Ame/zap1.ogg
+  - /Audio/_Suziford/Ambience/Ame/zap2.ogg
+  - /Audio/_Suziford/Ambience/Ame/zap3.ogg
+  - /Audio/_Suziford/Ambience/Ame/zap4.ogg
+  - /Audio/_Suziford/Ambience/Ame/zap5.ogg
+  - /Audio/_Suziford/Ambience/Ame/hiss.ogg

@@ -150,6 +150,11 @@
     location: nuclear bomb
   - type: FTLSmashImmune
   - type: SupermatterImmune # Goobstation
+  # SuziStation update start
+  - type: Tag
+    tags:
+    - SuziVaultAmbience
+  # SuziStation update end
 
 - type: entity
   parent: NuclearBomb
