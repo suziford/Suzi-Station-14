@@ -55,7 +55,7 @@ public sealed partial class HealthAnalyzerComponent : Component
     /// How long it takes to scan someone.
     /// </summary>
     [DataField]
-    public TimeSpan ScanDelay = TimeSpan.FromSeconds(0.8);
+    public TimeSpan ScanDelay = TimeSpan.FromSeconds(1.2);
 
     /// <summary>
     /// Which entity has been scanned, for continuous updates
