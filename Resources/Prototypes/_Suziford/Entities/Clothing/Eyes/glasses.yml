@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingSpamtoneGlasses
+  name: очки спамтона
+  description: ((БОЛЬШАЯ ШИШКА!!!))
+  components:
+  - type: Sprite
+    sprite: _Suziford/Clothing/Eyes/Glasses/spamtoneglasses.rsi
+  - type: Clothing
+    sprite: _Suziford/Clothing/Eyes/Glasses/spamtoneglasses.rsi
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 7

@@ -169,3 +169,14 @@
     SuziCartridge: 60
   categories:
   - SuziPlinkClothing
+
+- type: listing
+  id: SuziPlinkClothingSpamtoneGlasses
+  name: Очки спамтона
+  description: ((БОЛЬШАЯ ШИШКА!!!))
+  icon: { sprite: /Textures/_Suziford/Clothing/Eyes/Glasses/spamtoneglasses.rsi, state: icon }
+  productEntity: ClothingSpamtoneGlasses
+  cost:
+    SuziCartridge: 30
+  categories:
+  - SuziPlinkClothing
