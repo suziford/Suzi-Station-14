@@ -1,0 +1,14 @@
+- type: entity
+  id: StorePresetSuziPlink
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-suziplink
+    categories:
+    - SuziPlinkDevices
+    - SuziPlinkClothing
+    - SuziPlinkInterestingClothing
+    currencyWhitelist:
+    - SuziCartridge
+    balance:
+      SuziCartridge: 0

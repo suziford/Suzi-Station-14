@@ -400,8 +400,6 @@
       collection: ReptilianHisses
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
-  params:
-    variation: 0.125
       # suzi-station emotes
     SillyLaugh3:
       path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
@@ -417,6 +415,8 @@
       collection: WarcryMale
     QueenLaughEmote:
       path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
+  params:
+    variation: 0.125
 
 - type: emoteSounds
   id: FemaleSlime
@@ -469,8 +469,6 @@
       collection: ReptilianHisses
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
-  params:
-    variation: 0.125
       # suzi-station emotes
     SillyLaugh3:
       path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
@@ -486,6 +484,8 @@
       collection: WarcryFemale
     QueenLaughEmote:
       path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
+  params:
+    variation: 0.125
 
 - type: emoteSounds
   id: UnisexVox
@@ -540,8 +540,6 @@
       collection: VoxHiss
     Caw:
       collection: HarpyCaws
-  params:
-    variation: 0.125
       # suzi-station emotes
     SillyLaugh3:
       path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
@@ -557,6 +555,8 @@
       collection: WarcryMale
     QueenLaughEmote:
       path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
+  params:
+    variation: 0.125
 
 - type: emoteSounds
   id: UnisexDiona
@@ -595,8 +595,6 @@
       collection: Dionayawn
     Sigh: #goob
       collection: Dionasigh
-  params:
-    variation: 0.125
       # suzi-station emotes
     SillyLaugh3:
       path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
@@ -612,6 +610,8 @@
       collection: WarcryMale
     QueenLaughEmote:
       path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
+  params:
+    variation: 0.125
 
 - type: emoteSounds
   id: UnisexArachnid
@@ -705,9 +705,6 @@
       collection: ReptilianHisses
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
-  params:
-    variation: 0.125
-    pitch: 0.75
       # suzi-station emotes
     SillyLaugh3:
       path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
@@ -723,6 +720,9 @@
       collection: WarcryMale
     QueenLaughEmote:
       path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
+  params:
+    variation: 0.125
+    pitch: 0.75
 
 - type: emoteSounds
   id: FemaleDwarf
@@ -769,9 +769,6 @@
       collection: ReptilianHisses
     Surprised: # Goob
       path: /Audio/_Goobstation/Voice/surprised.ogg
-  params:
-    variation: 0.125
-    pitch: 0.75
       # suzi-station emotes
     SillyLaugh3:
       path: /Audio/_Suziford/Voice/Emotes/sillyLaugh.ogg
@@ -787,6 +784,9 @@
       collection: WarcryFemale
     QueenLaughEmote:
       path: /Audio/_Suziford/Voice/Emotes/deltarune-queen-laugh.ogg
+  params:
+    variation: 0.125
+    pitch: 0.75
 
 - type: emoteSounds
   id: UnisexMoth

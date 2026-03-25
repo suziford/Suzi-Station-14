@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseItem
+  parent: [BaseItem, StorePresetSuziPlink]
   id: BaseSuziPlinkPhone
   suffix: Empty
   name: СузиПлинк
@@ -20,13 +20,6 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: StorePresetSuziPlink
-    categories:
-    - SuziPlinkDevices
-    - SuziPlinkClothing
-    - SuziPlinkInterestingClothing
-    currencyWhitelist:
-    - SuziCartridge
     balance:
       SuziCartridge: 0
 
