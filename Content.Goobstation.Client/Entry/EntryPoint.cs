@@ -19,10 +19,15 @@ public sealed class EntryPoint : GameClient
     [Dependency] private readonly PollManager _pollManager = default!;
     [Dependency] private readonly ICommonCurrencyManager _currMan = default!;
 
+    public override void PreInit()
+    {
+        base.PreInit();
+
+        ContentGoobClientIoC.Register();
+    }
+
     public override void Init()
     {
-        ContentGoobClientIoC.Register();
-
         IoCManager.BuildGraph();
         IoCManager.InjectDependencies(this);
     }

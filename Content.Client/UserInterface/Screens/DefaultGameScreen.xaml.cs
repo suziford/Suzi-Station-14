@@ -25,6 +25,11 @@ public sealed partial class DefaultGameScreen : InGameScreen
         SetAnchorAndMarginPreset(Chat, LayoutPreset.TopRight, margin: 10);
         SetAnchorAndMarginPreset(Alerts, LayoutPreset.TopRight, margin: 10);
         SetAnchorAndMarginPreset(Targeting, LayoutPreset.BottomRight, margin: 5); // Shitmed Change
+        SetAnchorPreset(VoiceHud, LayoutPreset.BottomRight);
+        SetMarginRight(VoiceHud, -10);
+        SetMarginLeft(VoiceHud, -96);
+        SetMarginBottom(VoiceHud, -120);
+        SetMarginTop(VoiceHud, -146);
         SetGrowHorizontal(Alerts, GrowDirection.Begin);  // Reserve edit: Fix alert icons positioning
 
         Chat.OnResized += ChatOnResized;

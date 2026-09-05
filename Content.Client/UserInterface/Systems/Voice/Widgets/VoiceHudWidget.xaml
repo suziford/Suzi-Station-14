@@ -1,0 +1,45 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<widgets:VoiceHudWidget
+    xmlns="https://spacestation14.io"
+    xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Voice.Widgets"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+    Name="VoiceHud"
+    SetSize="86 26"
+    MinSize="86 26"
+    MaxSize="86 26"
+    MouseFilter="Ignore">
+    <PanelContainer>
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#14141BE0"
+                                   BorderThickness="1"
+                                   BorderColor="#2E303E"
+                                   ContentMarginLeftOverride="6"
+                                   ContentMarginRightOverride="6"
+                                   ContentMarginTopOverride="4"
+                                   ContentMarginBottomOverride="4" />
+        </PanelContainer.PanelOverride>
+        <BoxContainer Orientation="Horizontal" SeparationOverride="6" VerticalAlignment="Center">
+            <TextureRect Name="MicIcon"
+                         TexturePath="/Textures/Interface/VerbIcons/bubbles.svg.192dpi.png"
+                         SetSize="16 16"
+                         VerticalAlignment="Center"
+                         Stretch="KeepAspectCentered"/>
+            <ProgressBar Name="VolumeBar"
+                         MinValue="0"
+                         MaxValue="1"
+                         Value="0"
+                         SetSize="48 8"
+                         VerticalAlignment="Center">
+                <ProgressBar.BackgroundStyleBoxOverride>
+                    <graphics:StyleBoxFlat BackgroundColor="#222430" />
+                </ProgressBar.BackgroundStyleBoxOverride>
+                <ProgressBar.ForegroundStyleBoxOverride>
+                    <graphics:StyleBoxFlat BackgroundColor="#39FF14" />
+                </ProgressBar.ForegroundStyleBoxOverride>
+            </ProgressBar>
+        </BoxContainer>
+    </PanelContainer>
+</widgets:VoiceHudWidget>

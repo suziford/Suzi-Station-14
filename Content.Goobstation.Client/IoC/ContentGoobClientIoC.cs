@@ -20,7 +20,8 @@ internal static class ContentGoobClientIoC
 
         collection.Register<RedialManager>();
         collection.Register<PollManager>();
-        collection.Register<IVoiceChatManager, VoiceChatClientManager>();
+        collection.Register<Content.Client.Voice.IVoiceChatManager, VoiceChatClientManager>(overwrite: true);
+        collection.Register<Content.Goobstation.Client.Voice.IVoiceChatManager, VoiceChatClientManager>(overwrite: true);
         collection.Register<JoinQueueManager>();
         collection.Register<IFullScreenImageJumpscare, ClientFullScreenImageJumpscare>();
         collection.Register<ICommonCurrencyManager, ClientCurrencyManager>();

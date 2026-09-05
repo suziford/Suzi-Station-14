@@ -212,33 +212,70 @@ public sealed class VoiceChatServerManager : IVoiceChatServerManager, IPostInjec
         }
     }
 
+    private static bool MatchAddress(System.Net.IPAddress a, System.Net.IPAddress b)
+    {
+        if (Equals(a, b))
+            return true;
+        if (System.Net.IPAddress.IsLoopback(a) && System.Net.IPAddress.IsLoopback(b))
+            return true;
+        var a4 = a.IsIPv4MappedToIPv6 ? a.MapToIPv4() : a;
+        var b4 = b.IsIPv4MappedToIPv6 ? b.MapToIPv4() : b;
+        return Equals(a4, b4);
+    }
+
     /// <summary>
     /// Handle connection approval requests.
     /// </summary>
     private void HandleConnectionApproval(NetIncomingMessage msg)
     {
         ICommonSession? matchedSession = null;
+        var senderIp = msg.SenderEndPoint?.Address;
 
-        foreach (var commonSession in _playerManager.Sessions)
+        if (msg.LengthBytes > 0)
         {
-            if (commonSession is ICommonSession session &&
-                session.Channel.RemoteEndPoint.Address.Equals(msg.SenderEndPoint?.Address) &&
-                session.Status == SessionStatus.InGame)
+            try
             {
-                matchedSession = session;
-                break;
+                var hail = msg.ReadString();
+                if (Guid.TryParse(hail, out var guid))
+                {
+                    var netUserId = new NetUserId(guid);
+                    if (_playerManager.TryGetSessionById(netUserId, out var sess))
+                    {
+                        matchedSession = sess;
+                    }
+                }
+            }
+            catch
+            {
+                // Fallback to IP matching
             }
         }
 
-        if (matchedSession != null)
+        if (matchedSession == null && senderIp != null)
         {
-            _sawmill.Debug($"Approving voice connection from {msg.SenderEndPoint?.Address} for player {matchedSession.Name}");
+            foreach (var commonSession in _playerManager.Sessions)
+            {
+                if (commonSession is ICommonSession session &&
+                    MatchAddress(session.Channel.RemoteEndPoint.Address, senderIp))
+                {
+                    matchedSession = session;
+                    break;
+                }
+            }
+        }
+
+        if (matchedSession != null && matchedSession.Status != SessionStatus.Disconnected && matchedSession.Status != SessionStatus.Zombie)
+        {
+            if (msg.SenderConnection != null)
+                msg.SenderConnection.Tag = matchedSession;
+
+            _sawmill.Info($"Approving voice connection from {msg.SenderEndPoint?.Address} for player {matchedSession.Name} ({matchedSession.UserId})");
             msg.SenderConnection?.Approve();
         }
         else
         {
-            _sawmill.Warning($"Denying voice connection from {msg.SenderEndPoint?.Address}: No matching active player session found or player not in game.");
-            msg.SenderConnection?.Deny("No matching player session.");
+            _sawmill.Warning($"Denying voice connection from {msg.SenderEndPoint?.Address}: No matching active player session found. Total sessions: {_playerManager.PlayerCount}");
+            msg.SenderConnection?.Deny("No matching player session. Join the game server first.");
         }
     }
 
@@ -253,37 +290,51 @@ public sealed class VoiceChatServerManager : IVoiceChatServerManager, IPostInjec
             return;
         }
 
-        ICommonSession? session = null;
+        ICommonSession? session = connection.Tag as ICommonSession;
+        var remoteIp = connection.RemoteEndPoint.Address;
 
-        foreach (var commonSession in _playerManager.Sessions)
+        if (session == null && connection.RemoteHailMessage != null && connection.RemoteHailMessage.LengthBytes > 0)
         {
-            if (commonSession is ICommonSession playerSession &&
-                playerSession.Channel.RemoteEndPoint.Address.Equals(connection.RemoteEndPoint.Address))
+            try
             {
-                session = playerSession;
-                break;
+                var hail = connection.RemoteHailMessage.ReadString();
+                if (Guid.TryParse(hail, out var guid))
+                {
+                    var netUserId = new NetUserId(guid);
+                    if (_playerManager.TryGetSessionById(netUserId, out var sess))
+                    {
+                        session = sess;
+                    }
+                }
+            }
+            catch
+            {
+            }
+        }
+
+        if (session == null)
+        {
+            foreach (var commonSession in _playerManager.Sessions)
+            {
+                if (commonSession is ICommonSession playerSession &&
+                    MatchAddress(playerSession.Channel.RemoteEndPoint.Address, remoteIp))
+                {
+                    session = playerSession;
+                    break;
+                }
             }
         }
 
         if (session == null)
         {
             _sawmill.Error($"Voice client {connection.RemoteEndPoint.Address} connected, but corresponding session object is null. Disconnecting.");
-            connection.Disconnect("Failed to find player session object. Are you in-game?");
+            connection.Disconnect("Failed to find player session object.");
             return;
         }
 
-        _sawmill.Debug($"Found session for {connection.RemoteEndPoint.Address}: Player={session.Name}, Status={session.Status}, AttachedEntity={session.AttachedEntity}");
+        _sawmill.Info($"Successfully associated voice client {connection.RemoteEndPoint.Address} with player {session.Name}. Adding to tracked clients.");
 
-        if (session.AttachedEntity is not { Valid: true } entityUid)
-        {
-            _sawmill.Error($"Voice client {connection.RemoteEndPoint.Address} connected for player {session.Name}, but attached entity is null or invalid ({session.AttachedEntity}). Disconnecting.");
-            connection.Disconnect("Failed to find valid player entity. Are you in round?");
-            return;
-        }
-
-        _sawmill.Info($"Successfully associated voice client {connection.RemoteEndPoint.Address} with player {session.Name} (Entity: {entityUid}). Adding to tracked clients.");
-
-        var clientData = new VoiceClientData(connection, entityUid, SampleRate, Channels);
+        var clientData = new VoiceClientData(connection, session, SampleRate, Channels);
 
         if (!Clients.TryAdd(connection, clientData))
         {
@@ -418,7 +469,7 @@ public sealed class VoiceChatServerManager : IVoiceChatServerManager, IPostInjec
     /// </summary>
     private void OnPlayerStatusChanged(object? sender, SessionStatusEventArgs e)
     {
-        if (e.NewStatus == SessionStatus.Disconnected || e.OldStatus == SessionStatus.InGame && e.NewStatus != SessionStatus.InGame)
+        if (e.NewStatus == SessionStatus.Disconnected || e.NewStatus == SessionStatus.Zombie)
         {
             NetConnection? connectionToDrop = null;
             VoiceClientData? dataToDrop = null;
@@ -430,17 +481,18 @@ public sealed class VoiceChatServerManager : IVoiceChatServerManager, IPostInjec
 
             foreach (var conn in Clients.Keys.ToList())
             {
-                if (conn.RemoteEndPoint.Address.Equals(playerEndpoint))
+                var data = Clients[conn];
+                if (data.Session.UserId == playerSession.UserId || MatchAddress(conn.RemoteEndPoint.Address, playerEndpoint))
                 {
                     connectionToDrop = conn;
-                    dataToDrop = Clients[conn];
+                    dataToDrop = data;
                     break;
                 }
             }
 
             if (connectionToDrop != null && dataToDrop != null)
             {
-                _sawmill.Info($"Player {e.Session.Name} status changed from {e.OldStatus} to {e.NewStatus}. Disconnecting associated voice client {connectionToDrop.RemoteEndPoint.Address} (Entity: {dataToDrop.PlayerEntity}).");
+                _sawmill.Info($"Player {e.Session.Name} disconnected. Disconnecting associated voice client {connectionToDrop.RemoteEndPoint.Address}.");
                 connectionToDrop.Disconnect($"Player session ended (Status: {e.NewStatus}).");
             }
         }
@@ -466,7 +518,13 @@ public sealed class VoiceChatServerManager : IVoiceChatServerManager, IPostInjec
     public sealed class VoiceClientData : IDisposable
     {
         public NetConnection Connection { get; }
-        public EntityUid PlayerEntity { get; set; }
+        public ICommonSession Session { get; }
+        private EntityUid _playerEntity = EntityUid.Invalid;
+        public EntityUid PlayerEntity
+        {
+            get => _playerEntity.IsValid() ? _playerEntity : (Session.AttachedEntity ?? EntityUid.Invalid);
+            set => _playerEntity = value;
+        }
         public OpusDecoder? Decoder { get; private set; }
 
         private short[] _pcmBuffer;
@@ -475,10 +533,10 @@ public sealed class VoiceChatServerManager : IVoiceChatServerManager, IPostInjec
 
         private static readonly ISawmill _sawmill = Logger.GetSawmill("voiceserver");
 
-        public VoiceClientData(NetConnection connection, EntityUid playerEntity, int sampleRate, int channels)
+        public VoiceClientData(NetConnection connection, ICommonSession session, int sampleRate, int channels)
         {
             Connection = connection;
-            PlayerEntity = playerEntity;
+            Session = session;
 
             _pcmBuffer = new short[FrameSamplesPerChannel * channels];
             _opusReadBuffer = new byte[4000];
